@@ -261,18 +261,18 @@ PARAMETER_COLUMNS = ["max_tokens","provider","temperature"]
 MODELS = [
     {
         "config_index": 0,
-        "name": "openai/gpt-4o-mini",
-        "display_name": "openai/gpt-4o-mini",
+        "name": "openai/gpt-4o",
+        "display_name": "openai/gpt-4o",
         "provider": "openrouter",
         "url": "https://openrouter.ai/api/v1/chat/completions",
         "headers": {
             "Content-Type": "application/json",
-            "HTTP-Referer": "https://auditomatic.app",
+            "HTTP-Referer": "https://auditomatic.org",
             "X-Title": "Auditomatic Lite",
             "Authorization": "Bearer {{API_KEY}}"
         },
         "body": {
-            "model": "openai/gpt-4o-mini",
+            "model": "openai/gpt-4o",
             "messages": [
                 {
                     "role": "user",

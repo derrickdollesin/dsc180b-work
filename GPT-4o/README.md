@@ -1,8 +1,8 @@
 # Auditomatic Export Reproducibility Bundle
 
-Trial Name: Judge Prompt - Jan 26 2026 12:52
+Trial Name: Judge Prompt - Feb 9 2026 12:07
 
-Generated: 2026-01-26T20:56:27.801Z
+Generated: 2026-02-10T07:11:57.473Z
 
 ## Contents of the ZIP bundle
 - `requirements.txt` - for installing python package dependencies
